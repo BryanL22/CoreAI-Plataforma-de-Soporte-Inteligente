@@ -13,9 +13,15 @@
 
 ## 📌 Descripción General
 
-**CoreAI** es una plataforma diseñada para optimizar los procesos de soporte técnico mediante el uso de Inteligencia Artificial y automatización de flujos de trabajo.
+**CoreAI** es una plataforma inteligente de soporte técnico desarrollada para optimizar la atención al cliente mediante Inteligencia Artificial, automatización de procesos y gestión centralizada de incidencias.
 
-La solución permite registrar solicitudes de soporte, administrar tickets, clasificar incidencias automáticamente y generar diagnósticos preliminares utilizando modelos de lenguaje (LLMs), reduciendo significativamente los tiempos de respuesta y mejorando la experiencia del usuario.
+La plataforma ofrece dos canales de asistencia:
+
+* **Chat Inteligente con IA:** permite a los usuarios resolver dudas generales, recibir orientación inmediata y obtener soluciones rápidas sin necesidad de crear un ticket.
+* **Sistema de Tickets:** para problemas que requieren seguimiento, escalamiento o intervención humana, los usuarios pueden generar tickets que son clasificados automáticamente mediante IA según su prioridad, categoría y posible diagnóstico.
+
+A través de la integración de modelos de lenguaje, automatización con n8n y una arquitectura basada en microservicios, CoreAI reduce significativamente los tiempos de respuesta y mejora la eficiencia operativa de los equipos de soporte.
+
 
 ---
 
@@ -27,6 +33,14 @@ La solución permite registrar solicitudes de soporte, administrar tickets, clas
 * Asignación de prioridades.
 * Generación de diagnósticos preliminares.
 * Integración con modelos de IA mediante Gemini.
+
+### 💬 Asistente Virtual Inteligente
+
+* Chat conversacional impulsado por IA.
+* Resolución de preguntas frecuentes en tiempo real.
+* Orientación inicial para problemas técnicos.
+* Reducción de tickets innecesarios.
+* Escalamiento a ticket cuando la consulta requiere atención especializada.
 
 ### 🔐 Autenticación y Seguridad
 
@@ -183,6 +197,10 @@ docker-compose up -d --build
 * Mejorar la organización de incidencias.
 * Implementar soluciones de IA aplicadas a entornos reales.
 * Desarrollar una arquitectura escalable basada en microservicios.
+* Proporcionar soporte inmediato mediante un asistente virtual basado en IA.
+* Disminuir la carga operativa del equipo de soporte.
+* Automatizar la clasificación y gestión de incidencias.
+* Mejorar la experiencia de los usuarios mediante atención híbrida (IA + soporte humano).
 
 ---
 
